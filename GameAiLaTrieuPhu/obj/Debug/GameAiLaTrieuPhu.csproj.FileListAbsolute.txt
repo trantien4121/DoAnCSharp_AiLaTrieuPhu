@@ -19,3 +19,5 @@ E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\EntityFra
 E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\EntityFramework.SqlServer.xml
 E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\System.Data.SQLite.xml
 E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.CopyComplete
+E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.LoginScreen.resources
+E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.QuestionControlScreen.resources

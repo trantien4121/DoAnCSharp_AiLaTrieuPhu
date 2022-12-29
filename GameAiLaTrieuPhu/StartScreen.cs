@@ -28,5 +28,12 @@ namespace GameAiLaTrieuPhu
         {
             Application.Exit();
         }
+
+        private void btnDangNhap_Click(object sender, EventArgs e)
+        {
+            LoginScreen fr = new LoginScreen();
+            fr.Show();
+            this.Hide();
+        }
     }
 }

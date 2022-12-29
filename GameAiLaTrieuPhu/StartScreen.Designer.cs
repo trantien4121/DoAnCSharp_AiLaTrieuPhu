@@ -99,6 +99,7 @@
             this.btnDangNhap.Text = "Đăng nhập";
             this.btnDangNhap.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnDangNhap.UseVisualStyleBackColor = false;
+            this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
             // StartScreen
             // 

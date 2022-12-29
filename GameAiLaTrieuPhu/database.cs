@@ -24,12 +24,10 @@ namespace GameAiLaTrieuPhu
             try
             {
                 connection.Open();
-                MessageBox.Show("Thanhf coong"); 
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex);
-                MessageBox.Show("that bai");
             }
             return connection;
         }

@@ -21,3 +21,4 @@ E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\System.Da
 E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.CopyComplete
 E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.LoginScreen.resources
 E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.QuestionControlScreen.resources
+E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.frmCRUDQuestions.resources

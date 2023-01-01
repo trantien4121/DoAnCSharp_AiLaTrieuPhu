@@ -19,7 +19,7 @@ namespace GameAiLaTrieuPhu
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-           form1 form = new form1();
+            form1 form = new form1();
             form.Show();
             this.Hide();
         }
@@ -34,6 +34,11 @@ namespace GameAiLaTrieuPhu
             LoginScreen fr = new LoginScreen();
             fr.Show();
             this.Hide();
+        }
+
+        private void StartScreen_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

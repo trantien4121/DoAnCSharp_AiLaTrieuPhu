@@ -93,6 +93,16 @@ namespace GameAiLaTrieuPhu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo {
+            get {
+                object obj = ResourceManager.GetObject("logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap luachon_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("luachon-removebg-preview", resourceCulture);
@@ -156,6 +166,16 @@ namespace GameAiLaTrieuPhu.Properties {
         internal static System.Drawing.Bitmap StartScreen2 {
             get {
                 object obj = ResourceManager.GetObject("StartScreen2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap StartScreen21 {
+            get {
+                object obj = ResourceManager.GetObject("StartScreen21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

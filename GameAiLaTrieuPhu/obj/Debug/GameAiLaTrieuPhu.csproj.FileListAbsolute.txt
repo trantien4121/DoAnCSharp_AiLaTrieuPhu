@@ -21,3 +21,27 @@ E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\System.Da
 E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.CopyComplete
 E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.LoginScreen.resources
 E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.QuestionControlScreen.resources
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\GameAiLaTrieuPhu.exe.config
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\GameAiLaTrieuPhu.exe
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\GameAiLaTrieuPhu.pdb
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\EntityFramework.dll
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\System.Data.SQLite.dll
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\EntityFramework.xml
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\System.Data.SQLite.xml
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.AssemblyReference.cache
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.SuggestedBindingRedirects.cache
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.form1.resources
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.LoginScreen.resources
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.Properties.Resources.resources
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.QuestionControlScreen.resources
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.StartScreen.resources
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.GenerateResource.cache
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.CoreCompileInputs.cache
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.CopyComplete
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.exe
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.pdb
+C:\Users\needf\Source\Repos\DoAnCSharp_AiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.FinalForm.resources

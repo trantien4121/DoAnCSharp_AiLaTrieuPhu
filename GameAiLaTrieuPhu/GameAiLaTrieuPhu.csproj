@@ -73,6 +73,14 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="giaithuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="giaithuong.Designer.cs">
+      <DependentUpon>giaithuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkedList.cs" />
+    <Compile Include="LinkedListNode.cs" />
     <Compile Include="LoginScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +105,9 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="giaithuong.resx">
+      <DependentUpon>giaithuong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginScreen.resx">
       <DependentUpon>LoginScreen.cs</DependentUpon>
@@ -141,14 +152,17 @@
     <Content Include="Resources\5050_notActive.png" />
     <Content Include="Resources\anhNenChinh.jpg" />
     <Content Include="Resources\circleBackground.png" />
+    <Content Include="Resources\correct.png" />
     <Content Include="Resources\DienThoai_active.png" />
     <Content Include="Resources\DienThoai_notActive.png" />
     <Content Include="Resources\luachon-removebg-preview.png" />
     <Content Include="Resources\mainBackground.jpg" />
     <Content Include="Resources\mocCauHoi.png" />
     <Content Include="Resources\mocCauHoi_checkpoint.png" />
+    <Content Include="Resources\prize.png" />
     <Content Include="Resources\StartBackground.png" />
     <Content Include="Resources\StartScreen2.jpg" />
+    <Content Include="Resources\wrong.png" />
     <Content Include="Resources\YkienKhanGia_active.png" />
     <Content Include="Resources\YKienKhanGia_notActive.png" />
     <Content Include="StartScreen2.jpg" />

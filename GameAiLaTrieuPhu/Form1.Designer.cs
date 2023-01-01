@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form1));
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
@@ -61,6 +62,7 @@
             this.lblThoiGianTraLoi = new System.Windows.Forms.Label();
             this.btnPlay = new System.Windows.Forms.Button();
             this.chartPollResults = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.QuestionPanel.SuspendLayout();
@@ -400,9 +402,10 @@
             this.btnLuaChonD.Name = "btnLuaChonD";
             this.btnLuaChonD.Size = new System.Drawing.Size(294, 72);
             this.btnLuaChonD.TabIndex = 0;
-            this.btnLuaChonD.Text = "D";
+            this.btnLuaChonD.Text = "D.";
             this.btnLuaChonD.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnLuaChonD.UseVisualStyleBackColor = true;
+            this.btnLuaChonD.Click += new System.EventHandler(this.btnLuaChonD_Click);
             // 
             // btnLuaChonB
             // 
@@ -415,9 +418,10 @@
             this.btnLuaChonB.Name = "btnLuaChonB";
             this.btnLuaChonB.Size = new System.Drawing.Size(294, 72);
             this.btnLuaChonB.TabIndex = 0;
-            this.btnLuaChonB.Text = "B";
+            this.btnLuaChonB.Text = "B.";
             this.btnLuaChonB.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnLuaChonB.UseVisualStyleBackColor = true;
+            this.btnLuaChonB.Click += new System.EventHandler(this.btnLuaChonB_Click);
             // 
             // btnLuaChonC
             // 
@@ -430,9 +434,10 @@
             this.btnLuaChonC.Name = "btnLuaChonC";
             this.btnLuaChonC.Size = new System.Drawing.Size(292, 72);
             this.btnLuaChonC.TabIndex = 0;
-            this.btnLuaChonC.Text = "C";
+            this.btnLuaChonC.Text = "C.";
             this.btnLuaChonC.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnLuaChonC.UseVisualStyleBackColor = true;
+            this.btnLuaChonC.Click += new System.EventHandler(this.btnLuaChonC_Click);
             // 
             // btnLuaChonA
             // 
@@ -445,9 +450,10 @@
             this.btnLuaChonA.Name = "btnLuaChonA";
             this.btnLuaChonA.Size = new System.Drawing.Size(292, 72);
             this.btnLuaChonA.TabIndex = 0;
-            this.btnLuaChonA.Text = "A";
+            this.btnLuaChonA.Text = "A.";
             this.btnLuaChonA.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnLuaChonA.UseVisualStyleBackColor = true;
+            this.btnLuaChonA.Click += new System.EventHandler(this.btnLuaChonA_Click);
             // 
             // btnCauHoi
             // 
@@ -477,6 +483,7 @@
             this.lblThoiGianTraLoi.Size = new System.Drawing.Size(60, 45);
             this.lblThoiGianTraLoi.TabIndex = 3;
             this.lblThoiGianTraLoi.Text = "60";
+            this.lblThoiGianTraLoi.Click += new System.EventHandler(this.lblThoiGianTraLoi_Click);
             // 
             // btnPlay
             // 
@@ -493,6 +500,7 @@
             this.btnPlay.Text = "Chơi";
             this.btnPlay.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnPlay.UseVisualStyleBackColor = false;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // chartPollResults
             // 
@@ -513,11 +521,16 @@
             this.chartPollResults.TabIndex = 13;
             this.chartPollResults.Visible = false;
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::GameAiLaTrieuPhu.Properties.Resources.mainBackground;
+            this.BackgroundImage = global::GameAiLaTrieuPhu.Properties.Resources.mainBackground1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(933, 567);
             this.Controls.Add(this.chartPollResults);
@@ -526,9 +539,11 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.panel1);
+            this.DoubleBuffered = true;
             this.Name = "form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main Screen";
+            this.Load += new System.EventHandler(this.form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.QuestionPanel.ResumeLayout(false);
@@ -569,6 +584,7 @@
         private System.Windows.Forms.Label lblThoiGianTraLoi;
         private System.Windows.Forms.Button btnPlay;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartPollResults;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

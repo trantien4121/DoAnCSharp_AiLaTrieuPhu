@@ -26,9 +26,10 @@ namespace GameAiLaTrieuPhu
         }
 
         // Kiểm tra nếu đáp án được lựa chọn là đúng
-        public bool checkAnswer(string selectedOption)
+         public bool checkAnswer(string selectedOption)
         {
             string answer = selectedOption.Substring(2, selectedOption.Length - 2);
+            Console.Write($"......  {answer}");
             if (this.answer == answer)
             {
                 return true;
@@ -38,6 +39,7 @@ namespace GameAiLaTrieuPhu
                 return false;
             }
         }
+
 
         //Thay câu hỏi
         public string getQuestionText()

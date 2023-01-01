@@ -21,3 +21,27 @@ E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\bin\Debug\System.Da
 E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.CopyComplete
 E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.LoginScreen.resources
 E:\trantien\.NET FRAMEWORK\GameAiLaTrieuPhu\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.QuestionControlScreen.resources
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\bin\Debug\GameAiLaTrieuPhu.exe.config
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\bin\Debug\GameAiLaTrieuPhu.exe
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\bin\Debug\GameAiLaTrieuPhu.pdb
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\bin\Debug\EntityFramework.dll
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\bin\Debug\EntityFramework.SqlServer.dll
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\bin\Debug\System.Data.SQLite.dll
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\bin\Debug\System.Data.SQLite.EF6.dll
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\bin\Debug\System.Data.SQLite.Linq.dll
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\bin\Debug\EntityFramework.xml
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\bin\Debug\EntityFramework.SqlServer.xml
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\bin\Debug\System.Data.SQLite.xml
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.AssemblyReference.cache
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.SuggestedBindingRedirects.cache
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.form1.resources
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.LoginScreen.resources
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.Properties.Resources.resources
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.QuestionControlScreen.resources
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.StartScreen.resources
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.GenerateResource.cache
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.CoreCompileInputs.cache
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.CopyComplete
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.exe
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.pdb
+F:\C#\AiLaTrieuPhu_ver1\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.giaithuong.resources

@@ -30,14 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form1));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
             this.prize5 = new System.Windows.Forms.Button();
             this.prize15 = new System.Windows.Forms.Button();
             this.prize10 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.prize14 = new System.Windows.Forms.Button();
             this.prize13 = new System.Windows.Forms.Button();
             this.prize12 = new System.Windows.Forms.Button();
             this.prize11 = new System.Windows.Forms.Button();
@@ -75,7 +75,7 @@
             this.panel1.Controls.Add(this.prize5);
             this.panel1.Controls.Add(this.prize15);
             this.panel1.Controls.Add(this.prize10);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.prize14);
             this.panel1.Controls.Add(this.prize13);
             this.panel1.Controls.Add(this.prize12);
             this.panel1.Controls.Add(this.prize11);
@@ -140,21 +140,21 @@
             this.prize10.UseVisualStyleBackColor = false;
             this.prize10.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button1
+            // prize14
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(3, 52);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(247, 29);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Câu 14: 85.000.000 VND";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.prize14.BackColor = System.Drawing.Color.Transparent;
+            this.prize14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("prize14.BackgroundImage")));
+            this.prize14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.prize14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.prize14.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prize14.ForeColor = System.Drawing.Color.White;
+            this.prize14.Location = new System.Drawing.Point(3, 52);
+            this.prize14.Name = "prize14";
+            this.prize14.Size = new System.Drawing.Size(247, 29);
+            this.prize14.TabIndex = 0;
+            this.prize14.Text = "Câu 14: 85.000.000 VND";
+            this.prize14.UseVisualStyleBackColor = false;
+            this.prize14.Click += new System.EventHandler(this.button1_Click);
             // 
             // prize13
             // 
@@ -353,7 +353,7 @@
             this.btnDienThoai.Size = new System.Drawing.Size(75, 48);
             this.btnDienThoai.TabIndex = 0;
             this.btnDienThoai.UseVisualStyleBackColor = true;
-            this.btnDienThoai.Click += new System.EventHandler(this.btnYKienKhanGia_Click);
+            this.btnDienThoai.Click += new System.EventHandler(this.btnDienThoai_click);
             // 
             // btnYKienKhanGia
             // 
@@ -372,11 +372,13 @@
             this.btn5050.BackgroundImage = global::GameAiLaTrieuPhu.Properties.Resources._5050_active;
             this.btn5050.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn5050.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn5050.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.btn5050.Location = new System.Drawing.Point(19, 11);
             this.btn5050.Name = "btn5050";
             this.btn5050.Size = new System.Drawing.Size(75, 48);
             this.btn5050.TabIndex = 0;
             this.btn5050.UseVisualStyleBackColor = true;
+            this.btn5050.Click += new System.EventHandler(this.btn5050_Click);
             // 
             // QuestionPanel
             // 
@@ -478,7 +480,7 @@
             this.lblThoiGianTraLoi.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.lblThoiGianTraLoi.Font = new System.Drawing.Font("Times New Roman", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblThoiGianTraLoi.ForeColor = System.Drawing.Color.White;
-            this.lblThoiGianTraLoi.Location = new System.Drawing.Point(319, 7);
+            this.lblThoiGianTraLoi.Location = new System.Drawing.Point(851, 183);
             this.lblThoiGianTraLoi.Name = "lblThoiGianTraLoi";
             this.lblThoiGianTraLoi.Size = new System.Drawing.Size(60, 45);
             this.lblThoiGianTraLoi.TabIndex = 3;
@@ -493,9 +495,9 @@
             this.btnPlay.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPlay.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPlay.ForeColor = System.Drawing.Color.White;
-            this.btnPlay.Location = new System.Drawing.Point(714, 156);
+            this.btnPlay.Location = new System.Drawing.Point(517, 173);
             this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(186, 72);
+            this.btnPlay.Size = new System.Drawing.Size(186, 55);
             this.btnPlay.TabIndex = 0;
             this.btnPlay.Text = "Chơi";
             this.btnPlay.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -504,22 +506,23 @@
             // 
             // chartPollResults
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartPollResults.ChartAreas.Add(chartArea1);
-            legend1.BackColor = System.Drawing.Color.Transparent;
-            legend1.Enabled = false;
-            legend1.Name = "Legend1";
-            this.chartPollResults.Legends.Add(legend1);
-            this.chartPollResults.Location = new System.Drawing.Point(450, 59);
+            chartArea2.Name = "ChartArea1";
+            this.chartPollResults.ChartAreas.Add(chartArea2);
+            legend2.BackColor = System.Drawing.Color.Transparent;
+            legend2.Enabled = false;
+            legend2.Name = "Legend1";
+            this.chartPollResults.Legends.Add(legend2);
+            this.chartPollResults.Location = new System.Drawing.Point(275, 11);
             this.chartPollResults.Margin = new System.Windows.Forms.Padding(2);
             this.chartPollResults.Name = "chartPollResults";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartPollResults.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartPollResults.Series.Add(series2);
             this.chartPollResults.Size = new System.Drawing.Size(300, 158);
             this.chartPollResults.TabIndex = 13;
             this.chartPollResults.Visible = false;
+            this.chartPollResults.Click += new System.EventHandler(this.chartPollResults_Click);
             // 
             // timer1
             // 
@@ -566,7 +569,7 @@
         private System.Windows.Forms.Button prize8;
         private System.Windows.Forms.Button prize7;
         private System.Windows.Forms.Button prize10;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button prize14;
         private System.Windows.Forms.Button prize13;
         private System.Windows.Forms.Button prize12;
         private System.Windows.Forms.Button prize11;

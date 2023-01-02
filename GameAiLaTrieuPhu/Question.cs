@@ -29,9 +29,9 @@ namespace GameAiLaTrieuPhu
          public bool checkAnswer(string selectedOption)
         {
             string answer = selectedOption.Substring(2, selectedOption.Length - 2);
-            Console.Write($"......  {answer}");
             if (this.answer == answer)
             {
+
                 return true;
             }
             else
@@ -41,6 +41,37 @@ namespace GameAiLaTrieuPhu
         }
 
 
+        public String getOptionsAnswer(String selectedOption)
+        {
+            string answer = selectedOption.Substring(0, selectedOption.Length - 2);
+            String answerOption = this.answer.Substring(0,1);
+           
+
+            if (this.answer == answer )
+            {
+                
+                return $"H:\\Download\\Software__Dowload\\sound_AiLaTrieuPhu - CSharp\\Dung{selectedOption.Substring(0, 1)}_XinChucMung_sound.wav";
+            }
+
+            else
+            {
+                if(this.answer == options[0])
+                {
+                    return $"H:\\Download\\Software__Dowload\\sound_AiLaTrieuPhu-CSharp\\SaiA_RatTiec_sound.wav";
+                }
+                else if (this.answer == options[1])
+                {
+                    return $"H:\\Download\\Software__Dowload\\sound_AiLaTrieuPhu-CSharp\\SaiB_RatTiec_sound.wav";
+                }
+                else if (this.answer == options[2])
+                {
+                    return $"H:\\Download\\Software__Dowload\\sound_AiLaTrieuPhu-CSharp\\SaiC_RatTiec_sound.wav";
+                }
+                return $"H:\\Download\\Software__Dowload\\sound_AiLaTrieuPhu-CSharp\\SaiD_RatTiec_sound.wav";
+
+
+            }
+        }
         //Thay câu hỏi
         public string getQuestionText()
         {

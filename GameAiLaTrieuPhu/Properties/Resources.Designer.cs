@@ -73,9 +73,29 @@ namespace GameAiLaTrieuPhu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _5050_notActive {
+            get {
+                object obj = ResourceManager.GetObject("5050_notActive", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap circleBackground {
             get {
                 object obj = ResourceManager.GetObject("circleBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cophuoc {
+            get {
+                object obj = ResourceManager.GetObject("cophuoc", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +116,16 @@ namespace GameAiLaTrieuPhu.Properties {
         internal static System.Drawing.Bitmap DienThoai_active {
             get {
                 object obj = ResourceManager.GetObject("DienThoai_active", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DienThoai_notActive {
+            get {
+                object obj = ResourceManager.GetObject("DienThoai_notActive", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,6 +213,36 @@ namespace GameAiLaTrieuPhu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap thaydung {
+            get {
+                object obj = ResourceManager.GetObject("thaydung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thayha {
+            get {
+                object obj = ResourceManager.GetObject("thayha", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thaylan {
+            get {
+                object obj = ResourceManager.GetObject("thaylan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap wrong {
             get {
                 object obj = ResourceManager.GetObject("wrong", resourceCulture);
@@ -196,6 +256,16 @@ namespace GameAiLaTrieuPhu.Properties {
         internal static System.Drawing.Bitmap YkienKhanGia_active {
             get {
                 object obj = ResourceManager.GetObject("YkienKhanGia_active", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap YKienKhanGia_notActive {
+            get {
+                object obj = ResourceManager.GetObject("YKienKhanGia_notActive", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -12,6 +12,7 @@ namespace GameAiLaTrieuPhu
         private Button prize;
         private Boolean checkpoint;
         private LinkedListNode next = null;
+      /*  private String sound; */
 
         // Khong co node tiep theo 
 
@@ -19,14 +20,20 @@ namespace GameAiLaTrieuPhu
         {
             this.prize = prize;
             this.checkpoint = checkpoint;
+          /*  this.sound = sound; */
 
         }
 
         // get  
+        
         public Button getPrize()
         {
             return this.prize;
         }
+      /*  public String getSound()
+        {
+            return this.sound;
+        }*/
         public Boolean getCheckpoint()
         {
             return this.checkpoint;

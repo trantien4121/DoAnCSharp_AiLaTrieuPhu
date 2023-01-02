@@ -142,22 +142,43 @@
   <data name="StartBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StartBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="prize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="wrong" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wrong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="5050_active" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5050_active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="5050_notActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5050_notActive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mocCauHoi_checkpoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mocCauHoi_checkpoint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="YKienKhanGia_notActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YKienKhanGia_notActive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="luachon-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\luachon-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="5050_active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5050_active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DienThoai_notActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DienThoai_notActive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mocCauHoi_checkpoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mocCauHoi_checkpoint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="circleBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\circleBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="prize" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="thayha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thayha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cophuoc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cophuoc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thaydung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thaydung.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thaylan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thaylan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

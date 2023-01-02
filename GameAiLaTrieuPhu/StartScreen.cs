@@ -22,6 +22,8 @@ namespace GameAiLaTrieuPhu
            form1 form = new form1();
             form.Show();
             this.Hide();
+       
+            
         }
 
         private void btnThoat_Click(object sender, EventArgs e)

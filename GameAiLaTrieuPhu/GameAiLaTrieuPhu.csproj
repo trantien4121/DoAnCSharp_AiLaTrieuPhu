@@ -73,12 +73,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="giaithuong.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="giaithuong.Designer.cs">
-      <DependentUpon>giaithuong.cs</DependentUpon>
-    </Compile>
     <Compile Include="LinkedList.cs" />
     <Compile Include="LinkedListNode.cs" />
     <Compile Include="LoginScreen.cs">
@@ -87,6 +81,13 @@
     <Compile Include="LoginScreen.Designer.cs">
       <DependentUpon>LoginScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phone_Support_Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phone_Support_Screen.Designer.cs">
+      <DependentUpon>Phone_Support_Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PollResults.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Question.cs" />
@@ -97,6 +98,12 @@
     <Compile Include="QuestionControlScreen.Designer.cs">
       <DependentUpon>QuestionControlScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="ScoreScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScoreScreen.Designer.cs">
+      <DependentUpon>ScoreScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="StartScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,11 +113,11 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="giaithuong.resx">
-      <DependentUpon>giaithuong.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="LoginScreen.resx">
       <DependentUpon>LoginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phone_Support_Screen.resx">
+      <DependentUpon>Phone_Support_Screen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -124,6 +131,9 @@
     </Compile>
     <EmbeddedResource Include="QuestionControlScreen.resx">
       <DependentUpon>QuestionControlScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScoreScreen.resx">
+      <DependentUpon>ScoreScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StartScreen.resx">
       <DependentUpon>StartScreen.cs</DependentUpon>
@@ -152,6 +162,7 @@
     <Content Include="Resources\5050_notActive.png" />
     <Content Include="Resources\anhNenChinh.jpg" />
     <Content Include="Resources\circleBackground.png" />
+    <Content Include="Resources\cophuoc.jpg" />
     <Content Include="Resources\correct.png" />
     <Content Include="Resources\DienThoai_active.png" />
     <Content Include="Resources\DienThoai_notActive.png" />
@@ -162,6 +173,9 @@
     <Content Include="Resources\prize.png" />
     <Content Include="Resources\StartBackground.png" />
     <Content Include="Resources\StartScreen2.jpg" />
+    <Content Include="Resources\thaydung.jpg" />
+    <Content Include="Resources\thayha.jpg" />
+    <Content Include="Resources\thaylan.jpg" />
     <Content Include="Resources\wrong.png" />
     <Content Include="Resources\YkienKhanGia_active.png" />
     <Content Include="Resources\YKienKhanGia_notActive.png" />

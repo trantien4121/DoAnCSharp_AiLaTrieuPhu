@@ -50,24 +50,24 @@ namespace GameAiLaTrieuPhu
             if (this.answer == answer )
             {
                 
-                return $"H:\\Download\\Software__Dowload\\sound_AiLaTrieuPhu - CSharp\\Dung{selectedOption.Substring(0, 1)}_XinChucMung_sound.wav";
+                return $"D:\\sound_AiLaTrieuPhu-CSharp\\Dung{selectedOption.Substring(0, 1)}_XinChucMung_sound.wav";
             }
 
             else
             {
                 if(this.answer == options[0])
                 {
-                    return $"H:\\Download\\Software__Dowload\\sound_AiLaTrieuPhu-CSharp\\SaiA_RatTiec_sound.wav";
+                    return $"D:\\sound_AiLaTrieuPhu-CSharp\\SaiA_RatTiec_sound.wav";
                 }
                 else if (this.answer == options[1])
                 {
-                    return $"H:\\Download\\Software__Dowload\\sound_AiLaTrieuPhu-CSharp\\SaiB_RatTiec_sound.wav";
+                    return $"D:\\sound_AiLaTrieuPhu-CSharp\\SaiB_RatTiec_sound.wav";
                 }
                 else if (this.answer == options[2])
                 {
-                    return $"H:\\Download\\Software__Dowload\\sound_AiLaTrieuPhu-CSharp\\SaiC_RatTiec_sound.wav";
+                    return $"D:\\sound_AiLaTrieuPhu-CSharp\\SaiC_RatTiec_sound.wav";
                 }
-                return $"H:\\Download\\Software__Dowload\\sound_AiLaTrieuPhu-CSharp\\SaiD_RatTiec_sound.wav";
+                return $"D:\\sound_AiLaTrieuPhu-CSharp\\SaiD_RatTiec_sound.wav";
 
 
             }
@@ -82,6 +82,10 @@ namespace GameAiLaTrieuPhu
         public string[] getOptions()
         {
             return options;
+        }
+        public String getAnswer()
+        {
+            return answer;
         }
     }
 }

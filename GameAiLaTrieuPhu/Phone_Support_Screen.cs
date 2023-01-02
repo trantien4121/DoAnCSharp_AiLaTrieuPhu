@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -12,8 +13,11 @@ namespace GameAiLaTrieuPhu
 {
     public partial class Phone_Support_Screen : Form
     { private String answer;
+        System.Media.SoundPlayer sound_GoiDienNguoiThan = new System.Media.SoundPlayer(@"D:\sound_AiLaTrieuPhu-CSharp\helpCall_sound.wav");
         public Phone_Support_Screen(String answer)
         {
+            sound_GoiDienNguoiThan.Play();
+            Thread.Sleep(1000);
             InitializeComponent();
             this.answer = answer;
         }

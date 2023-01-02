@@ -73,6 +73,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCRUDQuestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCRUDQuestions.Designer.cs">
+      <DependentUpon>frmCRUDQuestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuideScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuideScreen.Designer.cs">
+      <DependentUpon>GuideScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="LinkedList.cs" />
     <Compile Include="LinkedListNode.cs" />
     <Compile Include="LoginScreen.cs">
@@ -112,6 +124,12 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCRUDQuestions.resx">
+      <DependentUpon>frmCRUDQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuideScreen.resx">
+      <DependentUpon>GuideScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginScreen.resx">
       <DependentUpon>LoginScreen.cs</DependentUpon>

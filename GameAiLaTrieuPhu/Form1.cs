@@ -6,6 +6,7 @@ using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
@@ -15,7 +16,16 @@ namespace GameAiLaTrieuPhu
 {
     public partial class form1 : Form
     {
-        System.Media.SoundPlayer sound = new System.Media.SoundPlayer(@"H:\Download\Software__Dowload\sound_AiLaTrieuPhu-CSharp\BatDau_ALTP.wav");
+        System.Media.SoundPlayer sound_LuatChoi_BatDau = new System.Media.SoundPlayer(@"D:\sound_AiLaTrieuPhu-CSharp\LuatChoi_sound.wav");
+        System.Media.SoundPlayer sound_1_5 = new System.Media.SoundPlayer(@"D:\sound_AiLaTrieuPhu-CSharp\NhacCho_1-5_sound.wav");
+        System.Media.SoundPlayer sound_6_10 = new System.Media.SoundPlayer(@"D:\sound_AiLaTrieuPhu-CSharp\NhacCho_6-10_sound.wav");
+        System.Media.SoundPlayer sound_11_15 = new System.Media.SoundPlayer(@"D:\sound_AiLaTrieuPhu-CSharp\NhacCho_10-15_sound.wav");
+        System.Media.SoundPlayer sound_duaCauTraLoi = new System.Media.SoundPlayer(@"D:\sound_AiLaTrieuPhu-CSharp\DuaRaCauTraLoi_sound.wav");
+        System.Media.SoundPlayer sound_5050 = new System.Media.SoundPlayer(@"D:\sound_AiLaTrieuPhu-CSharp\5050_sound.wav");
+        System.Media.SoundPlayer sound_YKienKhanGia = new System.Media.SoundPlayer(@"D:\sound_AiLaTrieuPhu-CSharp\YKienKhanGia_sound.wav");
+        
+
+
         private int questionNo = 0;
         private QuestionBank bank = null;
         private Question currentQuestion = null;
@@ -29,8 +39,8 @@ namespace GameAiLaTrieuPhu
 
         public form1()
         {
-            
-            sound.Play();
+
+            sound_LuatChoi_BatDau.Play();
             bank = new QuestionBank();
    
             InitializeComponent();
@@ -53,7 +63,7 @@ namespace GameAiLaTrieuPhu
             prizeList.addToList(new LinkedListNode(prize11, false));
             prizeList.addToList(new LinkedListNode(prize12, false));
             prizeList.addToList(new LinkedListNode(prize13, false));
-           prizeList.addToList(new LinkedListNode(prize14, false));
+            prizeList.addToList(new LinkedListNode(prize14, false));
             prizeList.addToList(new LinkedListNode(prize15, true));
            
         }
@@ -96,6 +106,8 @@ namespace GameAiLaTrieuPhu
         }
         private void btnYKienKhanGia_Click(object sender, EventArgs e)
         {
+            sound_YKienKhanGia.Play();
+            Thread.Sleep(10000);
             // Danh sách của kết quả thăm dò
             List<PollResults> pollResults = new List<PollResults>();
 
@@ -239,7 +251,7 @@ namespace GameAiLaTrieuPhu
                 // Nếu vượt qua được checkpoint, thì đó là giải thưởng cuối cùng, ngược lại giải thưởng cuối cùng là 0 VND
                 if (lastCheckpoint != null)
                 {
-                    final = new ScoreScreen(lastCheckpoint.getPrize().Text.Substring(6, lastCheckpoint.getPrize().Text.Length-6));
+                    final = new ScoreScreen(lastCheckpoint.getPrize().Text.Substring(7, lastCheckpoint.getPrize().Text.Length-7));
 
                 }
                 else
@@ -255,14 +267,21 @@ namespace GameAiLaTrieuPhu
           
              if (btnPlay.Text == "Chơi" || btnPlay.Text == "Câu hỏi tiếp theo")
             {
-                sound.Stop();
+                sound_LuatChoi_BatDau.Stop();
                 enableOptionButtons();
                 chartPollResults.Visible = false;
                 /* enableOptionButtons();*/
-                if (questionNo >= 0 && questionNo <= 5)
+                if (questionNo >= 0 && questionNo < 5)
                 {
-                    System.Media.SoundPlayer sound1 = new System.Media.SoundPlayer(@"H:\Download\Software__Dowload\sound_AiLaTrieuPhu-CSharp\NhacCho_1-5_sound.wav");
-                    sound1.Play();
+                    sound_1_5.Play();
+                }
+                if (questionNo >= 5 && questionNo < 10)
+                {
+                    sound_6_10.Play();
+                }
+                if (questionNo >= 10 && questionNo <= 14)
+                {
+                    sound_11_15.Play();
                 }
                 if (questionNo < 15)
                 {
@@ -330,15 +349,16 @@ namespace GameAiLaTrieuPhu
         private void answerCheck(Button selectedOption)
         {
             timer1.Stop();
-            sound.Stop();
-            MessageBox.Show($"Đã chọn câu {selectedOption.Text.Substring(0, 1)} ");
-
+            sound_LuatChoi_BatDau.Stop();
+            //MessageBox.Show($"Đã chọn câu {selectedOption.Text.Substring(0, 1)} ");
+            sound_duaCauTraLoi.Play();
+            Thread.Sleep(3000);
             if (currentQuestion.checkAnswer(selectedOption.Text))
             {
 
 
 
-                System.Media.SoundPlayer sound_correct = new System.Media.SoundPlayer($@"H:\Download\Software__Dowload\sound_AiLaTrieuPhu-CSharp\Dung{selectedOption.Text.Substring(0, 1)}_XinChucMung_sound.wav");
+                System.Media.SoundPlayer sound_correct = new System.Media.SoundPlayer($@"D:\sound_AiLaTrieuPhu-CSharp\Dung{selectedOption.Text.Substring(0, 1)}_XinChucMung_sound.wav");
                 sound_correct.Play();
                 // Đặt cái ảnh nền của đáp án được lựa chọn là đúng
                 selectedOption.BackgroundImage = Properties.Resources.correct;
@@ -441,7 +461,9 @@ namespace GameAiLaTrieuPhu
         }
 
         private void btn5050_Click(object sender, EventArgs e)
-        {
+        {   
+            sound_5050.Play();
+            Thread.Sleep(3000);
             int firstOptionToRemove = rNumber.Next(0, buttons.Count);
 
             // Nếu số lấy ngẫu nhiên trùng với đáp án đúng, quay lại số ngẫu nhiên mới
@@ -480,7 +502,6 @@ namespace GameAiLaTrieuPhu
 
         private void btnDienThoai_click(object sender, EventArgs e)
         {
-           
           
             if (btnDienThoai.Enabled = true)
             {

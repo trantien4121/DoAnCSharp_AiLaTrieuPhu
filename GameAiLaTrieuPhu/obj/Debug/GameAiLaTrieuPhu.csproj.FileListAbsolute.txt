@@ -70,3 +70,30 @@ F:\C#\AiLaTrieuPhu_ver2\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.exe
 F:\C#\AiLaTrieuPhu_ver2\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.pdb
 F:\C#\AiLaTrieuPhu_ver2\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.ScoreScreen.resources
 F:\C#\AiLaTrieuPhu_ver2\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.Phone_Support_Screen.resources
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\bin\Debug\GameAiLaTrieuPhu.exe.config
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\bin\Debug\GameAiLaTrieuPhu.exe
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\bin\Debug\GameAiLaTrieuPhu.pdb
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\bin\Debug\EntityFramework.dll
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\bin\Debug\System.Data.SQLite.dll
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\bin\Debug\EntityFramework.xml
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\bin\Debug\System.Data.SQLite.xml
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.AssemblyReference.cache
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.SuggestedBindingRedirects.cache
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.form1.resources
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.LoginScreen.resources
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.Phone_Support_Screen.resources
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.Properties.Resources.resources
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.QuestionControlScreen.resources
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.ScoreScreen.resources
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.StartScreen.resources
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.GenerateResource.cache
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.CoreCompileInputs.cache
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.csproj.CopyComplete
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.exe
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.pdb
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.frmCRUDQuestions.resources
+C:\Users\PHI LONG\Source\Repos\testALTP\GameAiLaTrieuPhu\obj\Debug\GameAiLaTrieuPhu.GuideScreen.resources

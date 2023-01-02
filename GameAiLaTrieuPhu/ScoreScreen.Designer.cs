@@ -36,6 +36,8 @@
             // 
             // lblTitle
             // 
+            this.lblTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTitle.BackColor = System.Drawing.Color.Transparent;
             this.lblTitle.BackgroundImage = global::GameAiLaTrieuPhu.Properties.Resources.mocCauHoi;
             this.lblTitle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -53,6 +55,9 @@
             // 
             // lblPrizeAmount
             // 
+            this.lblPrizeAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPrizeAmount.BackColor = System.Drawing.Color.Transparent;
             this.lblPrizeAmount.BackgroundImage = global::GameAiLaTrieuPhu.Properties.Resources.mocCauHoi;
             this.lblPrizeAmount.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -71,6 +76,9 @@
             // 
             // btnReturnToForm1
             // 
+            this.btnReturnToForm1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnReturnToForm1.BackColor = System.Drawing.Color.Transparent;
             this.btnReturnToForm1.BackgroundImage = global::GameAiLaTrieuPhu.Properties.Resources.mocCauHoi;
             this.btnReturnToForm1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -88,6 +96,9 @@
             // 
             // btnBacktoMenu
             // 
+            this.btnBacktoMenu.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnBacktoMenu.BackColor = System.Drawing.Color.Transparent;
             this.btnBacktoMenu.BackgroundImage = global::GameAiLaTrieuPhu.Properties.Resources.mocCauHoi;
             this.btnBacktoMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -116,7 +127,9 @@
             this.Controls.Add(this.lblPrizeAmount);
             this.Controls.Add(this.lblTitle);
             this.Name = "ScoreScreen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ScoreScreen";
+            this.Load += new System.EventHandler(this.ScoreScreen_Load);
             this.ResumeLayout(false);
 
         }

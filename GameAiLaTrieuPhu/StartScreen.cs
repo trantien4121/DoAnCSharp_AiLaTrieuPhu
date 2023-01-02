@@ -37,5 +37,12 @@ namespace GameAiLaTrieuPhu
             fr.Show();
             this.Hide();
         }
+
+        private void btnHuongDan_Click(object sender, EventArgs e)
+        {
+            GuideScreen fr = new GuideScreen();
+            fr.Show();
+            this.Hide();
+        }
     }
 }

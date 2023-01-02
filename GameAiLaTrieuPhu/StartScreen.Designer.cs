@@ -66,6 +66,7 @@
             this.btnHuongDan.Text = "Hướng dẫn ";
             this.btnHuongDan.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnHuongDan.UseVisualStyleBackColor = false;
+            this.btnHuongDan.Click += new System.EventHandler(this.btnHuongDan_Click);
             // 
             // btnThoat
             // 
